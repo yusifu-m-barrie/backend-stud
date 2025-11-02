@@ -26,10 +26,9 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6'
 
-    // ✅ MySQL driver (now fixed)
+
     implementation 'com.mysql:mysql-connector-j:8.0.33'
 
-    // PostgreSQL driver (for Render or other Postgres DBs)
     runtimeOnly 'org.postgresql:postgresql'
 
     // Testing
